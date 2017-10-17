@@ -1,0 +1,25 @@
+﻿Ejercicio de FizzBuzz
+Escribe un programa que use console.log para imprimir todos los números del 1 al 100, con dos excepciones:
+
+Para números divisibles por 3, imprime "Fizz" en vez del número
+Para números divisibles por 5 (pero no por 3), imprime "Buzz".
+Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz" para los números que sean divisibles tanto por 3 como por 5 (y que siga imprimiendo "Fizz" o "Buzz" para números divisibles por sólo uno de ellos).
+CÓDIGO->
+var number=0;
+while (number<=100){
+  //console.log(number);
+  if (number%3==0 && number%5==0 && number!=0){
+console.log ('FizzBuzz');
+}
+else if (number %5==0 && number !=0){
+  console.log ('Buzz');
+}
+else if (number %3==0 && number!=0 ){//Si es verdadero el divisible entre 3 y es cero la condición es v&v=V de lo contrario imprime lo que hay en else.
+  
+  console.log ('Fizz');
+}
+else {
+  console.log(number);
+}  
+number ++;
+}

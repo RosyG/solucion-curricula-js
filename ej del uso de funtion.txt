@@ -1,0 +1,24 @@
+﻿var dar=funtion(valor1){
+for var i=1; i<=valor1;i++){
+console.log ('X')
+}
+}
+dar(8);
+
+//****
+var dar=funtion(valor1, caracter){
+for var i=1; i<=valor1;i++){
+console.log (i+''+ caracter);//aparecera enumerado de acuerdo al valor1 que tenga concantenando al caracter que especifique anteriormente
+}
+}
+dar(8);
+////
+var name='Silvana';
+console.log(name);
+if (name.length>7){
+  console.log('Hola'+' '+ name);
+}else if (name.length<7) {
+console.log ('a'+' '+ name);  
+}
+else {console.log ('Andas pérdida'+' '+ name);  
+}
